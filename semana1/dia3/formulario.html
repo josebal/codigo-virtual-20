@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+    <style>
+        * {
+            font-family: Arial;
+        }
+        input {
+            margin-top: 5px;
+        }
+        input[type="reset"] {
+            background:#444;
+            color: #eee;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+        input[type="submit"] {
+            background:#05c76c;
+            color: #eee;
+            border: 1px solid #108a51;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+        form {
+            font-size:13px;
+        }
+        code {
+            color: #000;
+            margin-left: 15px;
+            font-family: console;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div>
+        <img src=""
+    </div>
+
+
+    <h1>Formulario input</h1>
+    <p>Usando <code>html + css</code></p>
+
+    <form action="">
+        <input type="text" placeholder="Tu nombre"><br>
+        <input type="password" placeholder="Contraseña"><br>
+        Género:
+        <input type="radio" name="genero"> Masculino 
+        <input type="radio" name="genero"> Femenino
+        <br><br>
+        Estudios: <br>
+        <input type="checkbox"> No tiene<br>
+        <input type="checkbox"> Secundaria completa<br>
+        <input type="checkbox"> Universitario<br>
+        Nacimiento: <input type="date"><br><br>
+        Adjuntar documento:<br>
+        <input type="file"><br><br>
+        Mensaje: <br>
+        <textarea cols="30" rows="3" placeholder="Escribe aqui"></textarea>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
